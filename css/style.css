@@ -1,3 +1,88 @@
-.logo{
+/*
+    customize header 
+*/
+header{
+    border-bottom: #7d97ad solid 2px;   
+    margin-bottom: 5px;
+}
+/*
+    customize section and section headers
+*/
+section {
+    padding: 10px;
+}
+section h1{
+    color: #7d97ad;   
+    padding: 10px;
+}
+/*
+    customize card images
+*/
+.card img{
+    height: 400px;
+    padding: 10px;
+}
 
+/* Footer section*/
+footer a{
+    color: #02b3e4;
+    padding: 10px;
+}
+/** Media Queries multiple devices**/
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .card img{
+        height: 200px;
+        padding: 10px;
+    }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    .card img{
+        height: 200px;
+        padding: 10px;
+    }
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {    
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .card img{
+        height: 200px;
+        padding: 10px;
+    }
+  
 }
