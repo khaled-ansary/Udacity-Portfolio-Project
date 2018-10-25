@@ -2,6 +2,9 @@
 
 Build a Portfolio Site according to a Mockup Design
 
+![Tablet View](https://github.com/khaled-ansary/Udacity-Portfolio-Project/blob/master/screen.png)
+![Mobile View](https://github.com/khaled-ansary/Udacity-Portfolio-Project/blob/master/mobile.png)
+
 # ToDo
 
 - ~~At least 4 Images~~
