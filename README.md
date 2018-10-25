@@ -10,14 +10,14 @@ Build a Portfolio Site according to a Mockup Design
 - ~~Should have a logo~~
 - ~~Grid-Based Layout~~
 - ~~Use Semantic HTML~~
-- Customize Images and text
-- Customize placement of the elements with html, css or both
-- CSS applied to paragraph and heading
-- Responsive Desing
+- ~~Customize Images and text~~
+- ~~Customize placement of the elements with html, css or both~~
+- ~~CSS applied to paragraph and heading~~
+- ~~Responsive Desing~~
 - ~~Responsive image~~
 - ~~Viewport metatag~~
 
-# Code Quality
+# Code Quality Applied
 
 - HTML formating rules
 - HTML Style rules

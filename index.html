@@ -7,48 +7,85 @@
         <meta name="description" content="Udacity Portfolio Site">
         <meta name="author" content="Khaled Hossain Ansary">
 
-        <!-- CSS -->
-        <link href="css/bootstrap.min.css" media="screen, projection" rel="stylesheet" type="text/css">
-        <link href="css/bootstrap.grid.css" media="screen, projection" rel="stylesheet" type="text/css">
+        <!-- Bootstrap 4 CSS -->
+        <link href="css/bootstrap/bootstrap.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap/bootstrap-grid.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+        <!-- Fontawesome 4 CSS-->
+        <link href="css/fontawesome/fontawesome.min.css" media="screen, projection" rel="stylesheet" type="text/css">
+        <link href="css/fontawesome/brands.min.css" media="screen, projection" rel="stylesheet" type="text/css">        
+        <!-- Customize CSS -->
         <link href="css/style.css" media="screen, projection" rel="stylesheet" type="text/css">
     
     </head>
-    <body>
-        <div class="container">
-            <nav class="navbar navbar-light bg-light">
-                <a class="navbar-brand" href="#">
-                    <img src="img/udacity.svg" width="30" height="30" alt="Udacity">
-                </a>
-                <span class="navbar-text">
-                    <h1>Khaled Hossain Ansary</h1>
-                    <p>Software Developer</p>
-                </span>
-            </nav>
-        </div>
-        <!--Header Image-->
-        <header>
-            <div class="container">       
-                <img src="img/programmer-wallpapers.png" class="img-fluid" alt="Header Image" />
-            </div>
-        </header>
-        <section>
-            <div class="container">
+    <body >
+        <div class="container-fluid">
+            <!--Header -->
+            <header> 
+                <nav class="navbar navbar-light bg-light">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/udacity.svg" width="80" height="80" alt="Udacity">
+                    </a>
+                    <span class="navbar-text">
+                        <h1>Khaled Hossain Ansary</h1>
+                        <p class="text-right">Software Developer</p>
+                    </span>
+                </nav>
+            </header>        
+             <!-- Full width image section -->                
+            <figure class="figure">
+                <img src="img/header.jpg" class="figure-img img-fluid rounded" alt="Photo by rawpixel on Unsplash">
+                <figcaption class="figure-caption text-right">Photo by Clément H on Unsplash</figcaption>
+            </figure>                                      
+        
+            <!--Feature Work Section-->
+            <section>            
                 <h1> Featured Work </h1>
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="img/HTML5_Logo.png" class="img-fluid" alt="HTML Image" />
+                        <div class="card mb-3">
+                            <img class="card-img-top" src="img/laptop.jpg" alt="HTML Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Project 1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
+                                <p class="card-text"><small class="text-muted">Photo by rawpixel on Unsplash</small></p>
+                            </div>
+                        </div>                                  
                     </div>
                     <div class="col-md-4">
-                        <img src="img/CSS3_logo.png" class="img-fluid" alt="CSS Image" />
+                        <div class="card mb-3">
+                            <img src="img/teamwork.jpg" class="card-img-top" alt="CSS Image" />
+                            <div class="card-body">
+                                <h5 class="card-title">Project 2</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
+                                <p class="card-text"><small class="text-muted">Photo by rawpixel on Unsplash</small></p>
+                            </div>
+                        </div>                                        
                     </div>
                     <div class="col-md-4">
-                        <img src="img/JavaScript-logo.png" class="img-fluid" alt="JS Image" />
+                        <div class="card mb-3">
+                            <img src="img/coding.jpg" class="card-img-top" alt="JS Image" />
+                            <div class="card-body">
+                                <h5 class="card-title">Project 3</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  </p>
+                                <p class="card-text"><small class="text-muted">Photo by Christopher Gower on Unsplash</small></p>
+                            </div>
+                        </div>                                           
                     </div>
-                </div>
-            </div>
-        </section>
-        <footer class="container">
-            <p>Copyright</p>
-        </footer>
+                </div>              
+            </section>
+
+            <!--Footer Section-->
+            <footer class="text-center">               
+                <a href="https://github.com/khaled-ansary">
+                    <i class="fab fa-github-square fa-2x"></i>
+                </a>
+                <a href="http://de.linkedin.com/in/khaledansary">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <a href="https://www.xing.com/profile/KhaledHossain_Ansary2">
+                    <i class="fab fa-xing-square fa-2x"></i>
+                </a>
+            </footer>
+        </div>
     </body>
 </html>
